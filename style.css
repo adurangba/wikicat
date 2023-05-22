@@ -5,8 +5,8 @@
   color: #fff;
 }
 
-html{
-  font-family: 'Roboto', sans-serif;
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -143,12 +143,12 @@ main #home img.home {
   background: linear-gradient(125deg, #92473e 35%, #bd6f5f);
 }
 
-#features{
+#features {
   width: 100%;
   padding: 8rem 10% 10rem;
 }
 
-section h2{
+section h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -161,22 +161,22 @@ section h2{
   margin-top: 3rem;
 }
 
-#features .wrapper1:first-of-type{
+#features .wrapper1:first-of-type {
   overflow-x: scroll;
 }
 
-.wrapper1 div{
+.wrapper1 div {
   background-color: #1a1e24ec;
-  padding: 1.5rem 1.2rem ;
+  padding: 1.5rem 1.2rem;
   border-radius: 25px;
 }
 
-.wrapper1 div h3{
+.wrapper1 div h3 {
   font-size: 1.5rem;
   line-height: 2;
 }
 
-.wrapper1 div p{
+.wrapper1 div p {
   width: 50ch;
   font-size: 1rem;
   line-height: 1.5;
@@ -186,56 +186,75 @@ section h2{
   color: #b26150;
 }
 
-#roadmap{
+#roadmap {
   padding: 8rem 10% 10rem;
   width: 100%;
 }
 
-#roadmap h2{
+#roadmap h2 {
   margin-bottom: 4rem;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   position: relative;
   width: 100%;
   justify-content: space-between;
-  
-  }
 
-.left{
+}
+
+.left {
   width: 45%;
-height: inherit;
+  height: inherit;
   top: auto;
   position: relative;
 }
 
-.left p{
+.left p {
   bottom: 30%;
   width: 40ch;
 }
 
-.wrapper .right div h4{
-  font-size: .7rem;
+.wrapper .right div h4 {
+  font-size: 0.7rem;
   margin-bottom: 1rem;
 }
 
-.wrapper .right div{
+.wrapper .right div {
   background-color: #1a1e24ec;
-  padding: 2rem 3rem ;
+  padding: 2rem 3rem;
   margin-bottom: 3rem;
   border-radius: 25px;
 }
 
-.wrapper .right ul li{
+.wrapper .right ul li {
   width: 37ch;
   line-height: 1.5;
 }
 
+section#faq .wrapper{
+  display: flex;
+  gap: 3rem;
+  width: 100vw;
+  padding: 4rem 10% 10rem;
+  justify-content: space-around;
+  /* align-items: center; */
+}
 
+section#faq .wrapper div{
+  padding: 1rem 2rem;
+  background-color: #1a1e24ec;
+  border-radius: 25px;
+}
 
+section#faq .wrapper div h3{
+  width: 30ch;
+  line-height: 2;
+  font-size:  1.5rem;
+  font-weight: 1000;
+}
 
-
-
-
-
+section#faq .wrapper div p{
+  width: 50ch;
+  line-height: 1.3;
+}
